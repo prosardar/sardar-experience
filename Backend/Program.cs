@@ -37,7 +37,7 @@ namespace Backend
                                     .GetCurrentClassLogger();
             }
             catch (Exception ex)
-            {                
+            {
                 Console.WriteLine($"Приложение остановлено, по причине невозможности инициализации NLog. {ex.Message}");
                 return;
             }
@@ -75,10 +75,12 @@ namespace Backend
             {
                 _isCtrlC = e.SpecialKey == ConsoleSpecialKey.ControlC;
                 var isCtrlBreak = e.SpecialKey == ConsoleSpecialKey.ControlBreak;
-                
+
                 if (_isCtrlC)
                 {
                     e.Cancel = true;
+                    Console.WriteLine("Ctrl+C словили завершаем работу. ");
+                    Console.WriteLine("Нажмите любую клавиши для остановки и выхода из приложения.");
                     cts.Cancel();
                 }
             };
@@ -91,7 +93,7 @@ namespace Backend
             cts.Cancel();
 
             // Ожидаем 10 сек завершения остановки сервера, иначе идём дальше на завершение приложения
-            startTask.Wait(10000);    
+            startTask.Wait(10000);
         }
 
         private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
@@ -106,7 +108,8 @@ namespace Backend
                .AddSingleton<ILowServer, LowTCPServer>()
                .AddSingleton<ILowQueue, LowQueue>()
                .AddSingleton<ICommandDispatcher, CommandDispatcher>()
-               .AddSingleton(provider => {
+               .AddSingleton(provider =>
+               {
                    return config.GetSection(ServerConfig.TagName).Get<ServerConfig>();
                })
                .AddLogging(loggingBuilder =>

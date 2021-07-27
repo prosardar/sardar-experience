@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\prosa\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "D:\\Users\\Mardanov-SH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prosa\\Desktop\\my experience\\ClientsImitation\\ClientsImitation.csproj",
+      "projectUniqueName": "D:\\Users\\Mardanov-SH\\Repos\\Ho\\sardar-experience\\ClientsImitation\\ClientsImitation.csproj",
       "projectName": "ClientsImitation",
-      "projectPath": "C:\\Users\\prosa\\Desktop\\my experience\\ClientsImitation\\ClientsImitation.csproj",
-      "packagesPath": "C:\\Users\\prosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prosa\\Desktop\\my experience\\ClientsImitation\\obj\\",
+      "projectPath": "D:\\Users\\Mardanov-SH\\Repos\\Ho\\sardar-experience\\ClientsImitation\\ClientsImitation.csproj",
+      "packagesPath": "D:\\Users\\Mardanov-SH\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Mardanov-SH\\Repos\\Ho\\sardar-experience\\ClientsImitation\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\prosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\Mardanov-SH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

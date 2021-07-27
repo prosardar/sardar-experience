@@ -15,10 +15,5 @@ namespace Backend.Server
         /// Запуск прослушивания входящего канала
         /// </summary>
         Task StartAsync(CancellationToken cancellationToken);
-
-        /// <summary>
-        /// Остановка прослушивания входящего канала
-        /// </summary>
-        void Stop();
     }
 }

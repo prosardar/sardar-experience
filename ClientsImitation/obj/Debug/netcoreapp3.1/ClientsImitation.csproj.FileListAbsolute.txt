@@ -11,3 +11,16 @@ C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\Cl
 C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.dll
 C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.pdb
 C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.genruntimeconfig.cache
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.exe
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.deps.json
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.runtimeconfig.json
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.runtimeconfig.dev.json
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.pdb
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.csproj.AssemblyReference.cache
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.AssemblyInfoInputs.cache
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.AssemblyInfo.cs
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.csproj.CoreCompileInputs.cache
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.pdb
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.genruntimeconfig.cache

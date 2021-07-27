@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prosa\\Desktop\\my experience\\backend\\Backend.csproj": {}
+    "D:\\Users\\Mardanov-SH\\Repos\\Ho\\sardar-experience\\backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prosa\\Desktop\\my experience\\backend\\Backend.csproj": {
+    "D:\\Users\\Mardanov-SH\\Repos\\Ho\\sardar-experience\\backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prosa\\Desktop\\my experience\\backend\\Backend.csproj",
+        "projectUniqueName": "D:\\Users\\Mardanov-SH\\Repos\\Ho\\sardar-experience\\backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\prosa\\Desktop\\my experience\\backend\\Backend.csproj",
-        "packagesPath": "C:\\Users\\prosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prosa\\Desktop\\my experience\\backend\\obj\\",
+        "projectPath": "D:\\Users\\Mardanov-SH\\Repos\\Ho\\sardar-experience\\backend\\Backend.csproj",
+        "packagesPath": "D:\\Users\\Mardanov-SH\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Mardanov-SH\\Repos\\Ho\\sardar-experience\\backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\prosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\Mardanov-SH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

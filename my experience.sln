@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "backend\Backend.csproj", "{652ACEE9-7EAD-4D2E-BD2C-7D57C30030A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientsImitation", "ClientsImitation\ClientsImitation.csproj", "{95AB0C35-6B55-4A2C-AAF0-267490793F84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientsImitation", "ClientsImitation\ClientsImitation.csproj", "{95AB0C35-6B55-4A2C-AAF0-267490793F84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C1BFF1B-AABB-4074-8D68-5C05D0F0708F}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

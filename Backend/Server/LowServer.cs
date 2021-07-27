@@ -13,7 +13,7 @@ namespace Backend.Server
     /// Обработка сообщений осуществляется в дочерних domain приложениях.
     /// </summary>
     public abstract class LowServer : ILowServer
-    {        
+    {
         protected readonly ILogger<LowServer> Logger;
 
         /// <summary>
@@ -51,10 +51,5 @@ namespace Backend.Server
         /// Запуск прослушивания вх. канала
         /// </summary>
         public abstract Task StartAsync(CancellationToken cancellationToken);
-
-        /// <summary>
-        /// Остановка прослушивания вх. канала
-        /// </summary>
-        public abstract void Stop();
     }
 }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Threading;
 using System.Threading.Tasks;
 
 namespace Backend.Core
@@ -20,11 +17,7 @@ namespace Backend.Core
         /// <summary>
         /// Запуск цикла выполнения Job из очереди
         /// </summary>
-        Task StartAsync();
-
-        /// <summary>
-        /// Остановка выполнения Job из очережи
-        /// </summary>
-        void Stop();
+        /// <param name="cancellationToken">Токен для отмены цикла</param>
+        Task StartAsync(CancellationToken cancellationToken);
     }
 }

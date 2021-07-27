@@ -4,17 +4,38 @@ using System.Collections.Concurrent;
 
 namespace Backend.Commands
 {
+    /// <summary>
+    /// Реализация класса диспетчера команд, который создаёт команду на основе запроса
+    /// </summary>
     public class CommandDispatcher : ICommandDispatcher
     {
+        /// <summary>
+        /// Потокобезопасный словарь запросов и типа команды
+        /// </summary>
         private readonly ConcurrentDictionary<string, Type> _commandTypes;
 
-        public CommandDispatcher()
+        /// <summary>
+        /// Контейнер зависимостей
+        /// </summary>
+        private IServiceProvider serviceProvider;
+
+        /// <summary>
+        /// Конструктор класса диспетчеризатора команд на основе запросов
+        /// </summary>
+        /// <param name="provider">Контейнер зависимостей</param>
+        public CommandDispatcher(IServiceProvider provider)
         {
+            serviceProvider = provider;
             _commandTypes = new ConcurrentDictionary<string, Type>();
             _commandTypes.TryAdd("Command1", typeof(JobCommand1));
             _commandTypes.TryAdd("Command2", typeof(JobCommand2));
         }
 
+        /// <summary>
+        /// Метод диспетчиризации создания команды по заросу
+        /// </summary>
+        /// <param name="request">Запрос</param>
+        /// <returns></returns>
         public BaseCommand Dispatch(string request)
         {
             if (string.IsNullOrEmpty(request))
@@ -34,7 +55,7 @@ namespace Backend.Commands
                 throw new ApplicationException($"Не удалось получить тип команды обработчика для запроса {request}");
             }
 
-            BaseCommand command = (BaseCommand)Activator.CreateInstance(commandType);
+            BaseCommand command = (BaseCommand)Activator.CreateInstance(commandType, new[] { serviceProvider });
             command.Args = request;
 
             return command;

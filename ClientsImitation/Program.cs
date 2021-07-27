@@ -30,7 +30,7 @@ namespace ClientsImitation
                 TcpClient client = new TcpClient("localhost", port);
                 NetworkStream stream = client.GetStream();
                 int count = 0;
-                while (count++ < 2)
+                while (count++ < 50)
                 {                    
                     byte[] data = System.Text.Encoding.ASCII.GetBytes(message);
 

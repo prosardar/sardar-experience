@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Backend",
+    "\\Backend\\Commands",
+    "\\Backend\\Core",
+    "\\Backend\\Server"
+  ],
+  "SelectedNode": "\\Backend\\Server\\LowTCPServer.cs",
+  "PreviewInSolutionExplorer": false
+}

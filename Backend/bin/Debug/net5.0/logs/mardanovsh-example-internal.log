@@ -320,3 +320,157 @@
 2021-07-27 06:16:47.8129 Info Adding target ConsoleTarget(Name=logconsole)
 2021-07-27 06:16:47.8129 Info Adding target FileTarget(Name=logfile)
 2021-07-27 06:16:47.8381 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 15:54:46.6519 Info Message Template Auto Format enabled
+2021-07-27 15:54:46.7080 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 15:54:46.7190 Info Adding target FileTarget(Name=logfile)
+2021-07-27 15:54:46.7345 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:07:02.6862 Info Message Template Auto Format enabled
+2021-07-27 16:07:02.7340 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:07:02.7340 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:07:02.7589 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:08:49.3907 Info Message Template Auto Format enabled
+2021-07-27 16:08:49.4394 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:08:49.4506 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:08:49.4506 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:11:06.7124 Info Message Template Auto Format enabled
+2021-07-27 16:11:06.7646 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:11:06.7646 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:11:06.7881 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:11:57.8570 Info Message Template Auto Format enabled
+2021-07-27 16:11:57.9034 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:11:57.9144 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:11:57.9281 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:15:41.7717 Info Message Template Auto Format enabled
+2021-07-27 16:15:41.8220 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:15:41.8319 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:15:41.8467 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:16:47.6559 Info Message Template Auto Format enabled
+2021-07-27 16:16:47.7089 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:16:47.7089 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:16:47.7319 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:18:21.8621 Info Shutdown() called. Logger closing...
+2021-07-27 16:18:21.8621 Info Closing old configuration.
+2021-07-27 16:18:21.8958 Info Logger has been closed down.
+2021-07-27 16:18:21.8958 Info AppDomain Shutting down. Logger closing...
+2021-07-27 16:18:21.8958 Info Logger has been shut down.
+2021-07-27 16:18:28.3144 Info Message Template Auto Format enabled
+2021-07-27 16:18:28.3647 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:18:28.3647 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:18:28.3857 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:26:34.2318 Info Message Template Auto Format enabled
+2021-07-27 16:26:34.2950 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:26:34.3077 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:26:34.3239 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:26:35.5046 Info AppDomain Shutting down. Logger closing...
+2021-07-27 16:26:37.0229 Warn Flush completed with errors Exception: System.TimeoutException: Timeout when flushing all targets, after waiting 1,5 seconds.
+2021-07-27 16:26:37.0229 Warn Target flush timeout. One or more targets did not complete flush operation, skipping target close.
+2021-07-27 16:26:37.0229 Info Logger has been shut down.
+2021-07-27 16:26:42.9560 Info Message Template Auto Format enabled
+2021-07-27 16:26:43.0204 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:26:43.0204 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:26:43.0471 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:30:33.4908 Info Message Template Auto Format enabled
+2021-07-27 16:30:33.5442 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:30:33.5545 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:30:33.5691 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:32:42.2157 Info Message Template Auto Format enabled
+2021-07-27 16:32:42.2814 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:32:42.2961 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:32:42.3123 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 16:58:44.7103 Info Message Template Auto Format enabled
+2021-07-27 16:58:44.7707 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 16:58:44.7802 Info Adding target FileTarget(Name=logfile)
+2021-07-27 16:58:44.7802 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:02:41.7913 Info Message Template Auto Format enabled
+2021-07-27 17:02:41.8400 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:02:41.8501 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:02:41.8623 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:10:15.1646 Info Message Template Auto Format enabled
+2021-07-27 17:10:15.2252 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:10:15.2366 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:10:15.2513 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:11:02.9567 Info Message Template Auto Format enabled
+2021-07-27 17:11:03.0084 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:11:03.0203 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:11:03.0203 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:14:07.9929 Info Message Template Auto Format enabled
+2021-07-27 17:14:08.0416 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:14:08.0507 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:14:08.0507 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:17:40.2177 Info Message Template Auto Format enabled
+2021-07-27 17:17:40.2706 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:17:40.2890 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:17:40.3071 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:20:59.1309 Info Message Template Auto Format enabled
+2021-07-27 17:20:59.1814 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:20:59.1814 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:20:59.2072 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:21:23.9798 Info Message Template Auto Format enabled
+2021-07-27 17:21:24.0256 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:21:24.0256 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:21:24.0493 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:21:51.1794 Info Message Template Auto Format enabled
+2021-07-27 17:21:51.2327 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:21:51.2434 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:21:51.2570 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:24:03.2924 Info Message Template Auto Format enabled
+2021-07-27 17:24:03.3471 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:24:03.3580 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:24:03.3727 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:30:05.0629 Info Message Template Auto Format enabled
+2021-07-27 17:30:05.1097 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:30:05.1192 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:30:05.1192 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:31:23.6938 Info Message Template Auto Format enabled
+2021-07-27 17:31:23.7449 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:31:23.7449 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:31:23.7701 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:32:30.8391 Info Shutdown() called. Logger closing...
+2021-07-27 17:32:30.8391 Info Closing old configuration.
+2021-07-27 17:32:30.8391 Info Logger has been closed down.
+2021-07-27 17:32:30.8544 Info AppDomain Shutting down. Logger closing...
+2021-07-27 17:32:30.8544 Info Logger has been shut down.
+2021-07-27 17:36:12.8501 Info Message Template Auto Format enabled
+2021-07-27 17:36:12.9049 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:36:12.9049 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:36:12.9335 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:36:43.2450 Info Shutdown() called. Logger closing...
+2021-07-27 17:36:43.2450 Info Closing old configuration.
+2021-07-27 17:36:43.2547 Info Logger has been closed down.
+2021-07-27 17:36:43.2547 Info AppDomain Shutting down. Logger closing...
+2021-07-27 17:36:43.2629 Info Logger has been shut down.
+2021-07-27 17:37:00.7131 Info Message Template Auto Format enabled
+2021-07-27 17:37:00.7676 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:37:00.7775 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:37:00.7775 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:37:13.7852 Info Message Template Auto Format enabled
+2021-07-27 17:37:13.8365 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:37:13.8470 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:37:13.8597 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:49:17.7590 Info Message Template Auto Format enabled
+2021-07-27 17:49:17.8138 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:49:17.8138 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:49:17.8395 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:49:48.7181 Info Shutdown() called. Logger closing...
+2021-07-27 17:49:48.7181 Info Closing old configuration.
+2021-07-27 17:49:48.7364 Info Logger has been closed down.
+2021-07-27 17:49:48.7364 Info AppDomain Shutting down. Logger closing...
+2021-07-27 17:49:48.7364 Info Logger has been shut down.
+2021-07-27 17:50:24.8790 Info Message Template Auto Format enabled
+2021-07-27 17:50:24.9291 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:50:24.9388 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:50:24.9388 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:51:45.7616 Info Shutdown() called. Logger closing...
+2021-07-27 17:51:45.7616 Info Closing old configuration.
+2021-07-27 17:51:45.7738 Info Logger has been closed down.
+2021-07-27 17:51:45.7738 Info AppDomain Shutting down. Logger closing...
+2021-07-27 17:51:45.7738 Info Logger has been shut down.
+2021-07-27 17:54:27.4525 Info Message Template Auto Format enabled
+2021-07-27 17:54:27.5059 Info Adding target ConsoleTarget(Name=logconsole)
+2021-07-27 17:54:27.5184 Info Adding target FileTarget(Name=logfile)
+2021-07-27 17:54:27.5184 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=25
+2021-07-27 17:56:13.8105 Info Shutdown() called. Logger closing...
+2021-07-27 17:56:13.8105 Info Closing old configuration.
+2021-07-27 17:56:13.8247 Info Logger has been closed down.
+2021-07-27 17:56:13.8319 Info AppDomain Shutting down. Logger closing...
+2021-07-27 17:56:13.8319 Info Logger has been shut down.

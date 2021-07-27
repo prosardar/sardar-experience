@@ -71,24 +71,27 @@ namespace Backend.Server
             }
 
             _listener.Start();
-            await ProcessQueue.StartAsync();
+
+            Task queueTask = ProcessQueue.StartAsync(cancellationToken);
+            
+            Task channelTask = StartLoopAsync(cancellationToken);
 
             Started = true;
             Logger.LogTrace("Сервер запущен");
 
-            await StartLoopAsync(cancellationToken);
+            await Task.WhenAll(queueTask, channelTask);
         }
 
         /// <summary>
-        /// Цикл прослушивания и обработки входящего сообщения
         /// </summary>
         /// <param name="cancellationToken">Токен для отмены цикла</param>
         /// <returns>Возвращает Task, необходимый для определения выхода из цикла</returns>
         private async Task StartLoopAsync(CancellationToken cancellationToken)
-        {
+        {   
+            Logger.LogTrace("Запуск обработки запросов из канала");
             using (cancellationToken.Register(Stop))
             {
-                while (!cancellationToken.IsCancellationRequested)
+                while (cancellationToken.IsCancellationRequested == false)
                 {
                     try
                     {
@@ -112,6 +115,7 @@ namespace Backend.Server
                 }
             }
             Started = false;
+            Logger.LogTrace("Обработка запросов из канала прекращена");
         }
 
         /// <summary>
@@ -142,7 +146,7 @@ namespace Backend.Server
 
                     Logger.LogInformation("{1}: Получено: {0}", receiveData, Thread.CurrentThread.ManagedThreadId);
 
-                    // Заносим в очередь на обработку
+                    // Заносим полученные данные как запрос в очередь на обработку
                     ProcessQueue.Push(receiveData);
 
                     var response = "OK";
@@ -165,7 +169,7 @@ namespace Backend.Server
         /// <summary>
         /// Остановка прослушивания вх. канала
         /// </summary>
-        public override void Stop()
+        private void Stop()
         {
             if (_listener == null)
             {
@@ -180,7 +184,6 @@ namespace Backend.Server
             Logger.LogTrace("Остановка сервера...");
 
             _listener.Stop();
-            ProcessQueue.Stop();
         }
     }
 }

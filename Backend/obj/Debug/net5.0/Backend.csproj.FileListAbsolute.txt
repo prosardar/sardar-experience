@@ -32,3 +32,37 @@ C:\Users\prosa\Desktop\my experience\backend\obj\Debug\net5.0\Backend.pdb
 C:\Users\prosa\Desktop\my experience\backend\obj\Debug\net5.0\Backend.genruntimeconfig.cache
 C:\Users\prosa\Desktop\my experience\backend\bin\Debug\net5.0\appsettings.json
 C:\Users\prosa\Desktop\my experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\Backend\obj\Debug\net5.0\Backend.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\Backend\obj\Debug\net5.0\ref\Backend.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\Backend\obj\Debug\net5.0\Backend.pdb
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\obj\Debug\net5.0\Backend.csproj.AssemblyReference.cache
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Backend.exe
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\appsettings.json
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Backend.deps.json
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Backend.runtimeconfig.json
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Backend.runtimeconfig.dev.json
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Backend.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\ref\Backend.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Backend.pdb
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\NLog.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\obj\Debug\net5.0\Backend.csproj.CopyComplete
+D:\Users\Mardanov-SH\Repos\Ho\sardar-experience\backend\obj\Debug\net5.0\Backend.genruntimeconfig.cache
