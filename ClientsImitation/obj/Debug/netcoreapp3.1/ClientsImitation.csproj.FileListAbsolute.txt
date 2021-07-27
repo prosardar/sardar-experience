@@ -1,0 +1,13 @@
+C:\Users\prosa\Desktop\my experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.exe
+C:\Users\prosa\Desktop\my experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.deps.json
+C:\Users\prosa\Desktop\my experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.runtimeconfig.json
+C:\Users\prosa\Desktop\my experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.runtimeconfig.dev.json
+C:\Users\prosa\Desktop\my experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.dll
+C:\Users\prosa\Desktop\my experience\ClientsImitation\bin\Debug\netcoreapp3.1\ClientsImitation.pdb
+C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.csproj.AssemblyReference.cache
+C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.AssemblyInfoInputs.cache
+C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.AssemblyInfo.cs
+C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.csproj.CoreCompileInputs.cache
+C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.dll
+C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.pdb
+C:\Users\prosa\Desktop\my experience\ClientsImitation\obj\Debug\netcoreapp3.1\ClientsImitation.genruntimeconfig.cache

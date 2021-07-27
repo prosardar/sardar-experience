@@ -1,0 +1,1138 @@
+2021-07-27 00:40:45.7549|Trace|Start Initializing | 
+2021-07-27 00:40:45.7924|Trace|End Initializing | 
+2021-07-27 00:50:21.5788|Trace|Start Initializing | 
+2021-07-27 00:50:21.6165|Trace|End Initializing | 
+2021-07-27 01:19:10.9584|Trace|Start Initializing | 
+2021-07-27 01:19:22.4024|Error|Stopped program because of exception before starting server | System.FormatException: An invalid IP address was specified.
+ ---> System.Net.Sockets.SocketException (10022): Получен недопустимый аргумент.
+   --- End of inner exception stack trace ---
+   at System.Net.IPAddressParser.Parse(ReadOnlySpan`1 ipSpan, Boolean tryParse)
+   at System.Net.IPAddress.Parse(String ipString)
+   at backend.LowTCPServer.Init(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Core\LowTCPServer.cs:line 39
+   at backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 63
+   at backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 46
+2021-07-27 01:19:23.1297|Error|System.FormatException: An invalid IP address was specified.
+ ---> System.Net.Sockets.SocketException (10022): Получен недопустимый аргумент.
+   --- End of inner exception stack trace ---
+   at System.Net.IPAddressParser.Parse(ReadOnlySpan`1 ipSpan, Boolean tryParse)
+   at System.Net.IPAddress.Parse(String ipString)
+   at backend.LowTCPServer.Init(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Core\LowTCPServer.cs:line 39
+   at backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 63
+   at backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 46 | 
+2021-07-27 01:21:52.5360|Trace|Start Initializing | 
+2021-07-27 01:50:18.8099|Trace|Start Initializing | 
+2021-07-27 01:50:18.8763|Trace|End Initializing | 
+2021-07-27 01:50:18.8763|Trace|Starting server | 
+2021-07-27 01:54:36.5281|Trace|Start Initializing | 
+2021-07-27 01:54:36.6140|Trace|End Initializing | 
+2021-07-27 01:54:36.6140|Trace|Starting server | 
+2021-07-27 01:55:00.8646|Trace|Server was started | 
+2021-07-27 01:55:45.0550|Trace|Stopping server | 
+2021-07-27 01:55:49.7769|Trace|Server was stopped | 
+2021-07-27 01:56:47.3731|Trace|Start Initializing | 
+2021-07-27 01:56:47.4516|Trace|End Initializing | 
+2021-07-27 01:56:47.4516|Trace|Starting server | 
+2021-07-27 01:56:51.9951|Error|Stopped program because of exception before starting server | System.InvalidOperationException: RunSynchronously may not be called on a task not bound to a delegate, such as the task returned from an asynchronous method.
+   at System.Threading.Tasks.Task.InternalRunSynchronously(TaskScheduler scheduler, Boolean waitForCompletion)
+   at System.Threading.Tasks.Task.RunSynchronously()
+   at backend.LowTCPServer.Start() in C:\Users\prosa\Desktop\my experience\backend\Core\LowTCPServer.cs:line 67
+   at backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 65
+   at backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 46
+2021-07-27 01:56:52.0387|Error|System.InvalidOperationException: RunSynchronously may not be called on a task not bound to a delegate, such as the task returned from an asynchronous method.
+   at System.Threading.Tasks.Task.InternalRunSynchronously(TaskScheduler scheduler, Boolean waitForCompletion)
+   at System.Threading.Tasks.Task.RunSynchronously()
+   at backend.LowTCPServer.Start() in C:\Users\prosa\Desktop\my experience\backend\Core\LowTCPServer.cs:line 67
+   at backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 65
+   at backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 46 | 
+2021-07-27 01:57:25.8484|Trace|Start Initializing | 
+2021-07-27 01:57:25.9232|Trace|End Initializing | 
+2021-07-27 01:57:25.9232|Trace|Starting server | 
+2021-07-27 01:57:31.1787|Error|Stopped program because of exception before starting server | System.InvalidOperationException: Start may not be called on a promise-style task.
+   at System.Threading.Tasks.Task.Start(TaskScheduler scheduler)
+   at System.Threading.Tasks.Task.Start()
+   at backend.LowTCPServer.Start() in C:\Users\prosa\Desktop\my experience\backend\Core\LowTCPServer.cs:line 67
+   at backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 65
+   at backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 46
+2021-07-27 01:57:31.2179|Error|System.InvalidOperationException: Start may not be called on a promise-style task.
+   at System.Threading.Tasks.Task.Start(TaskScheduler scheduler)
+   at System.Threading.Tasks.Task.Start()
+   at backend.LowTCPServer.Start() in C:\Users\prosa\Desktop\my experience\backend\Core\LowTCPServer.cs:line 67
+   at backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 65
+   at backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 46 | 
+2021-07-27 01:58:06.3048|Trace|Start Initializing | 
+2021-07-27 01:58:06.3843|Trace|End Initializing | 
+2021-07-27 01:58:06.3843|Trace|Starting server | 
+2021-07-27 01:58:41.4674|Trace|Start Initializing | 
+2021-07-27 01:58:41.5502|Trace|End Initializing | 
+2021-07-27 01:58:41.5502|Trace|Starting server | 
+2021-07-27 01:58:54.7906|Trace|Server was started | 
+2021-07-27 01:59:31.7495|Trace|Stopping server | 
+2021-07-27 01:59:35.2163|Trace|Server was stopped | 
+2021-07-27 02:03:10.3899|Trace|Start Initializing | 
+2021-07-27 02:03:10.4753|Trace|End Initializing | 
+2021-07-27 02:03:10.4753|Trace|Starting server | 
+2021-07-27 02:04:12.5782|Trace|Start Initializing | 
+2021-07-27 02:04:12.6489|Trace|End Initializing | 
+2021-07-27 02:04:12.6548|Trace|Starting server | 
+2021-07-27 02:05:12.7661|Trace|Start Initializing | 
+2021-07-27 02:05:12.8309|Trace|End Initializing | 
+2021-07-27 02:05:12.8309|Trace|Starting server | 
+2021-07-27 02:05:32.5711|Trace|Stopping server | 
+2021-07-27 02:05:32.5711|Trace|Server was stopped | 
+2021-07-27 02:29:40.6294|Trace|Start Initializing | 
+2021-07-27 02:29:40.7121|Trace|End Initializing | 
+2021-07-27 02:29:40.7196|Trace|Starting server | 
+2021-07-27 02:33:34.7752|Trace|Start Initializing | 
+2021-07-27 02:33:34.8517|Trace|End Initializing | 
+2021-07-27 02:33:34.8579|Trace|Starting server | 
+2021-07-27 02:33:37.0429|Trace|Server was started | 
+2021-07-27 02:35:57.6094|Trace|Start Initializing | 
+2021-07-27 02:35:57.6817|Trace|End Initializing | 
+2021-07-27 02:35:57.6835|Trace|Starting server | 
+2021-07-27 02:36:04.4711|Trace|Server was started | 
+2021-07-27 02:36:21.5677|Trace|Stopping server | 
+2021-07-27 02:36:24.9520|Trace|Server was stopped | 
+2021-07-27 02:36:32.0530|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 02:38:13.5804|Trace|Start Initializing | 
+2021-07-27 02:38:13.6838|Trace|End Initializing | 
+2021-07-27 02:38:13.6838|Trace|Starting server | 
+2021-07-27 02:38:16.4710|Trace|Server was started | 
+2021-07-27 02:38:33.0387|Trace|Stopping server | 
+2021-07-27 02:38:38.9358|Trace|Server was stopped | 
+2021-07-27 02:39:07.7307|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 02:40:24.5983|Trace|Start Initializing | 
+2021-07-27 02:40:24.6818|Trace|End Initializing | 
+2021-07-27 02:40:24.6835|Trace|Starting server | 
+2021-07-27 02:40:27.8667|Trace|Server was started | 
+2021-07-27 02:40:49.2011|Trace|Stopping server | 
+2021-07-27 02:40:50.8048|Trace|Server was stopped | 
+2021-07-27 02:40:57.4361|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 02:45:49.3016|Trace|Start Initializing | 
+2021-07-27 02:45:49.4223|Trace|End Initializing | 
+2021-07-27 02:45:49.4223|Trace|Starting server | 
+2021-07-27 02:45:51.7777|Trace|Server was started | 
+2021-07-27 02:46:28.4742|Trace|Stopping server | 
+2021-07-27 02:46:28.4742|Trace|Server was stopped | 
+2021-07-27 02:46:30.3008|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 02:47:54.8532|Trace|Start Initializing | 
+2021-07-27 02:47:54.9278|Trace|End Initializing | 
+2021-07-27 02:47:54.9278|Trace|Starting server | 
+2021-07-27 02:47:54.9278|Trace|Server was started | 
+2021-07-27 02:48:04.9495|Trace|Stopping server | 
+2021-07-27 02:48:06.3024|Trace|Server was stopped | 
+2021-07-27 02:48:10.7045|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 02:49:42.0853|Trace|Start Initializing | 
+2021-07-27 02:49:42.1636|Trace|End Initializing | 
+2021-07-27 02:49:42.1711|Trace|Starting server | 
+2021-07-27 02:49:42.1711|Trace|Server was started | 
+2021-07-27 02:49:45.2607|Trace|Stopping server | 
+2021-07-27 02:49:45.2638|Trace|Server was stopped | 
+2021-07-27 02:49:46.7411|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 02:49:51.6641|Trace|Start Initializing | 
+2021-07-27 02:49:51.7336|Trace|End Initializing | 
+2021-07-27 02:49:51.7336|Trace|Starting server | 
+2021-07-27 02:49:51.7336|Trace|Server was started | 
+2021-07-27 02:49:54.5742|Trace|Stopping server | 
+2021-07-27 02:49:54.5742|Trace|Server was stopped | 
+2021-07-27 02:54:55.4852|Trace|Start Initializing | 
+2021-07-27 02:54:55.5657|Trace|End Initializing | 
+2021-07-27 02:54:55.5657|Trace|Starting server | 
+2021-07-27 02:54:55.5657|Trace|Server was started | 
+2021-07-27 02:54:58.4669|Trace|Stopping server | 
+2021-07-27 02:54:58.4669|Trace|Server was stopped | 
+2021-07-27 02:54:59.6906|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 02:55:05.0191|Trace|Start Initializing | 
+2021-07-27 02:55:05.0953|Trace|End Initializing | 
+2021-07-27 02:55:05.0953|Trace|Starting server | 
+2021-07-27 02:55:05.0953|Trace|Server was started | 
+2021-07-27 02:55:10.5724|Trace|Stopping server | 
+2021-07-27 02:55:10.5739|Trace|Server was stopped | 
+2021-07-27 02:55:16.5115|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 02:56:59.6333|Trace|Start Initializing | 
+2021-07-27 02:56:59.7105|Trace|End Initializing | 
+2021-07-27 02:56:59.7201|Trace|Starting server | 
+2021-07-27 02:56:59.7201|Trace|Server was started | 
+2021-07-27 02:57:02.9173|Trace|Stopping server | 
+2021-07-27 02:57:02.9238|Trace|Server was stopped | 
+2021-07-27 02:57:03.7949|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 02:57:13.1857|Trace|Start Initializing | 
+2021-07-27 02:57:13.2746|Trace|End Initializing | 
+2021-07-27 02:57:13.2746|Trace|Starting server | 
+2021-07-27 02:57:13.2800|Trace|Server was started | 
+2021-07-27 02:57:17.2314|Trace|Stopping server | 
+2021-07-27 02:57:17.2314|Trace|Server was stopped | 
+2021-07-27 02:57:18.4162|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 03:13:59.9977|Trace|Begin Initializing | 
+2021-07-27 03:14:00.0936|Trace|End Initializing | 
+2021-07-27 03:14:00.0936|Trace|Starting server | 
+2021-07-27 03:14:00.1061|Trace|Server was started | 
+2021-07-27 03:14:28.1278|Trace|Received message | 
+2021-07-27 03:14:42.1623|Trace|Received message | 
+2021-07-27 03:18:06.1297|Trace|Begin Initializing | 
+2021-07-27 03:18:06.2155|Trace|End Initializing | 
+2021-07-27 03:18:06.2155|Trace|Starting server | 
+2021-07-27 03:18:06.2155|Trace|Server was started | 
+2021-07-27 03:18:22.0758|Trace|Received message | 
+2021-07-27 03:18:24.3724|Trace|Received message | 
+2021-07-27 03:18:47.9078|Trace|Stopping server | 
+2021-07-27 03:18:47.9078|Trace|Server was stopped | 
+2021-07-27 03:18:47.9838|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 03:18:56.6279|Trace|Begin Initializing | 
+2021-07-27 03:18:56.7134|Trace|End Initializing | 
+2021-07-27 03:18:56.7214|Trace|Starting server | 
+2021-07-27 03:18:56.7214|Trace|Server was started | 
+2021-07-27 03:19:22.4703|Trace|Received message | 
+2021-07-27 03:19:22.4808|Trace|Received message | 
+2021-07-27 03:19:38.2497|Trace|Stopping server | 
+2021-07-27 03:19:38.2497|Trace|Server was stopped | 
+2021-07-27 03:19:42.1507|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 03:21:09.6162|Trace|Begin Initializing | 
+2021-07-27 03:21:09.7169|Trace|End Initializing | 
+2021-07-27 03:21:09.7169|Trace|Starting server | 
+2021-07-27 03:21:09.7169|Trace|Server was started | 
+2021-07-27 03:21:18.5779|Trace|Received message | 
+2021-07-27 03:21:18.5779|Trace|Received message | 
+2021-07-27 03:21:24.6631|Trace|Stopping server | 
+2021-07-27 03:21:24.6674|Trace|Server was stopped | 
+2021-07-27 03:21:31.1617|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 03:30:01.7826|Trace|Begin Initializing | 
+2021-07-27 03:30:01.8932|Trace|End Initializing | 
+2021-07-27 03:30:01.8932|Trace|Starting server | 
+2021-07-27 03:30:01.8932|Trace|Server was started | 
+2021-07-27 03:30:15.2975|Trace|Received message | 
+2021-07-27 03:30:15.2975|Trace|Received message | 
+2021-07-27 03:30:15.3285|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:30:15.3285|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:30:15.3416|Info|7: Sent: OK | 
+2021-07-27 03:30:15.3416|Info|4: Sent: OK | 
+2021-07-27 03:30:17.3436|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:30:17.3436|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:30:17.3436|Info|7: Sent: OK | 
+2021-07-27 03:30:17.3436|Info|4: Sent: OK | 
+2021-07-27 03:30:19.3480|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:30:19.3480|Info|7: Sent: OK | 
+2021-07-27 03:30:19.3480|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:30:19.3480|Info|4: Sent: OK | 
+2021-07-27 03:30:36.8901|Trace|Stopping server | 
+2021-07-27 03:30:36.8901|Trace|Server was stopped | 
+2021-07-27 03:30:36.9669|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 03:33:36.6789|Trace|Begin Initializing | 
+2021-07-27 03:33:36.7969|Trace|End Initializing | 
+2021-07-27 03:33:36.7969|Trace|Starting server | 
+2021-07-27 03:33:36.7969|Trace|Server was started | 
+2021-07-27 03:33:50.7404|Trace|Received message | 
+2021-07-27 03:33:50.7404|Trace|Received message | 
+2021-07-27 03:34:12.9874|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:12.9874|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:26.0191|Info|4: Sent: OK | 
+2021-07-27 03:34:26.0191|Info|7: Sent: OK | 
+2021-07-27 03:34:26.0191|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:27.8933|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:27.8933|Info|4: Sent: OK | 
+2021-07-27 03:34:27.8933|Info|7: Sent: OK | 
+2021-07-27 03:34:29.8943|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:29.8943|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:29.8943|Info|4: Sent: OK | 
+2021-07-27 03:34:29.8943|Info|7: Sent: OK | 
+2021-07-27 03:34:31.8964|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:31.8964|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:31.8964|Info|7: Sent: OK | 
+2021-07-27 03:34:31.9025|Info|4: Sent: OK | 
+2021-07-27 03:34:33.9014|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:33.9035|Info|7: Sent: OK | 
+2021-07-27 03:34:33.9035|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:33.9035|Info|4: Sent: OK | 
+2021-07-27 03:34:35.9044|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:35.9044|Info|7: Sent: OK | 
+2021-07-27 03:34:35.9044|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:35.9044|Info|4: Sent: OK | 
+2021-07-27 03:34:37.9106|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:37.9106|Info|7: Sent: OK | 
+2021-07-27 03:34:37.9106|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:37.9226|Info|4: Sent: OK | 
+2021-07-27 03:34:39.9163|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:39.9193|Info|7: Sent: OK | 
+2021-07-27 03:34:39.9193|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:39.9420|Info|4: Sent: OK | 
+2021-07-27 03:34:41.9212|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:41.9212|Info|7: Sent: OK | 
+2021-07-27 03:34:41.9659|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:41.9659|Info|4: Sent: OK | 
+2021-07-27 03:34:43.9265|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:43.9265|Info|7: Sent: OK | 
+2021-07-27 03:34:43.9752|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:43.9752|Info|4: Sent: OK | 
+2021-07-27 03:34:45.9361|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:45.9361|Info|7: Sent: OK | 
+2021-07-27 03:34:45.9787|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:45.9799|Info|4: Sent: OK | 
+2021-07-27 03:34:47.9642|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:47.9680|Info|7: Sent: OK | 
+2021-07-27 03:34:47.9829|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:48.0000|Info|4: Sent: OK | 
+2021-07-27 03:34:49.9692|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:49.9692|Info|7: Sent: OK | 
+2021-07-27 03:34:50.0112|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:50.0112|Info|4: Sent: OK | 
+2021-07-27 03:34:51.9726|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:51.9726|Info|7: Sent: OK | 
+2021-07-27 03:34:52.0166|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:52.0166|Info|4: Sent: OK | 
+2021-07-27 03:34:52.8296|Trace|Stopping server | 
+2021-07-27 03:34:52.8296|Trace|Server was stopped | 
+2021-07-27 03:34:52.8912|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 03:34:53.9822|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:53.9822|Info|7: Sent: OK | 
+2021-07-27 03:34:54.0209|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:54.0209|Info|4: Sent: OK | 
+2021-07-27 03:34:55.9854|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:55.9854|Info|7: Sent: OK | 
+2021-07-27 03:34:56.0252|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:56.0252|Info|4: Sent: OK | 
+2021-07-27 03:34:57.9970|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:34:57.9970|Info|7: Sent: OK | 
+2021-07-27 03:34:58.0297|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:34:58.0297|Info|4: Sent: OK | 
+2021-07-27 03:35:00.0210|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:00.0210|Info|7: Sent: OK | 
+2021-07-27 03:35:00.0390|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:00.0390|Info|4: Sent: OK | 
+2021-07-27 03:35:02.0245|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:02.0245|Info|7: Sent: OK | 
+2021-07-27 03:35:02.0415|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:02.0424|Info|4: Sent: OK | 
+2021-07-27 03:35:04.0281|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:04.0281|Info|7: Sent: OK | 
+2021-07-27 03:35:04.0451|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:04.0451|Info|4: Sent: OK | 
+2021-07-27 03:35:06.0340|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:06.0340|Info|7: Sent: OK | 
+2021-07-27 03:35:06.0469|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:06.0469|Info|4: Sent: OK | 
+2021-07-27 03:35:08.0401|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:08.0401|Info|7: Sent: OK | 
+2021-07-27 03:35:08.0489|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:08.0597|Info|4: Sent: OK | 
+2021-07-27 03:35:10.0542|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:10.0542|Info|7: Sent: OK | 
+2021-07-27 03:35:10.0611|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:10.0611|Info|4: Sent: OK | 
+2021-07-27 03:35:12.0609|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:12.0609|Info|7: Sent: OK | 
+2021-07-27 03:35:12.0609|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:12.0609|Info|4: Sent: OK | 
+2021-07-27 03:35:14.0650|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:14.0650|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:19.6006|Info|7: Sent: OK | 
+2021-07-27 03:35:19.6138|Info|4: Sent: OK | 
+2021-07-27 03:35:21.6021|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:21.6021|Info|7: Sent: OK | 
+2021-07-27 03:35:21.6292|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:21.6292|Info|4: Sent: OK | 
+2021-07-27 03:35:23.6070|Info|7: Received: Hello I'm Device 2... | 
+2021-07-27 03:35:23.6070|Info|7: Sent: OK | 
+2021-07-27 03:35:23.6368|Info|4: Received: Hello I'm Device 1... | 
+2021-07-27 03:35:23.6368|Info|4: Sent: OK | 
+2021-07-27 03:35:45.7481|Trace|Begin Initializing | 
+2021-07-27 03:35:45.8289|Trace|End Initializing | 
+2021-07-27 03:35:45.8289|Trace|Starting server | 
+2021-07-27 03:35:45.8289|Trace|Server was started | 
+2021-07-27 03:36:09.3115|Trace|Received message | 
+2021-07-27 03:36:09.3115|Trace|Received message | 
+2021-07-27 03:36:09.3115|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:09.3115|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:09.3272|Info|4: Sent: OK | 
+2021-07-27 03:36:09.3272|Info|10: Sent: OK | 
+2021-07-27 03:36:11.3289|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:11.3289|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:11.3289|Info|4: Sent: OK | 
+2021-07-27 03:36:11.3289|Info|10: Sent: OK | 
+2021-07-27 03:36:13.3334|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:13.3334|Info|4: Sent: OK | 
+2021-07-27 03:36:13.3334|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:13.3334|Info|10: Sent: OK | 
+2021-07-27 03:36:15.3370|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:15.3370|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:15.3408|Info|4: Sent: OK | 
+2021-07-27 03:36:15.3408|Info|10: Sent: OK | 
+2021-07-27 03:36:17.3426|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:17.3426|Info|4: Sent: OK | 
+2021-07-27 03:36:17.3426|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:17.3426|Info|10: Sent: OK | 
+2021-07-27 03:36:19.3483|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:19.3483|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:19.3483|Info|4: Sent: OK | 
+2021-07-27 03:36:19.3582|Info|10: Sent: OK | 
+2021-07-27 03:36:21.3554|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:21.3554|Info|4: Sent: OK | 
+2021-07-27 03:36:21.3554|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:21.3987|Info|10: Sent: OK | 
+2021-07-27 03:36:23.3617|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:23.3617|Info|4: Sent: OK | 
+2021-07-27 03:36:23.4001|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:23.4044|Info|10: Sent: OK | 
+2021-07-27 03:36:25.3671|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:25.3671|Info|4: Sent: OK | 
+2021-07-27 03:36:25.4142|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:25.4243|Info|10: Sent: OK | 
+2021-07-27 03:36:27.3891|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:27.3891|Info|4: Sent: OK | 
+2021-07-27 03:36:27.4347|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:27.4347|Info|10: Sent: OK | 
+2021-07-27 03:36:29.4161|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:29.4177|Info|4: Sent: OK | 
+2021-07-27 03:36:29.4621|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:29.4621|Info|10: Sent: OK | 
+2021-07-27 03:36:31.4253|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:31.4253|Info|4: Sent: OK | 
+2021-07-27 03:36:31.4800|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:31.4800|Info|10: Sent: OK | 
+2021-07-27 03:36:33.4398|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:33.4398|Info|4: Sent: OK | 
+2021-07-27 03:36:33.4878|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:33.4878|Info|10: Sent: OK | 
+2021-07-27 03:36:35.4442|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:35.4442|Info|4: Sent: OK | 
+2021-07-27 03:36:35.4953|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:35.4953|Info|10: Sent: OK | 
+2021-07-27 03:36:37.4469|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:37.4502|Info|4: Sent: OK | 
+2021-07-27 03:36:37.4995|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:37.4995|Info|10: Sent: OK | 
+2021-07-27 03:36:39.4780|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:39.4780|Info|4: Sent: OK | 
+2021-07-27 03:36:39.5063|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:39.5063|Info|10: Sent: OK | 
+2021-07-27 03:36:41.4815|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:41.4815|Info|4: Sent: OK | 
+2021-07-27 03:36:41.5094|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:41.5094|Info|10: Sent: OK | 
+2021-07-27 03:36:43.4980|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:43.4980|Info|4: Sent: OK | 
+2021-07-27 03:36:43.5110|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:43.5110|Info|10: Sent: OK | 
+2021-07-27 03:36:45.5039|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:45.5039|Info|4: Sent: OK | 
+2021-07-27 03:36:45.5149|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:45.5149|Info|10: Sent: OK | 
+2021-07-27 03:36:47.5069|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:47.5069|Info|4: Sent: OK | 
+2021-07-27 03:36:47.5169|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:47.5169|Info|10: Sent: OK | 
+2021-07-27 03:36:49.5142|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:49.5142|Info|4: Sent: OK | 
+2021-07-27 03:36:49.5142|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:49.5273|Info|10: Sent: OK | 
+2021-07-27 03:36:51.5208|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:51.5208|Info|4: Sent: OK | 
+2021-07-27 03:36:51.5308|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:51.5308|Info|10: Sent: OK | 
+2021-07-27 03:36:53.5246|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:53.5246|Info|4: Sent: OK | 
+2021-07-27 03:36:53.5325|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:53.5325|Info|10: Sent: OK | 
+2021-07-27 03:36:55.5269|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:55.5269|Info|4: Sent: OK | 
+2021-07-27 03:36:55.5269|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:55.5269|Info|10: Sent: OK | 
+2021-07-27 03:36:57.5319|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:36:57.5319|Info|4: Sent: OK | 
+2021-07-27 03:36:57.5319|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:36:57.5319|Info|10: Sent: OK | 
+2021-07-27 03:37:22.5722|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:22.5722|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:26.2805|Info|4: Sent: OK | 
+2021-07-27 03:37:26.2805|Info|10: Sent: OK | 
+2021-07-27 03:37:31.2632|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:32.1990|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:32.1990|Info|10: Sent: OK | 
+2021-07-27 03:37:32.2303|Info|4: Sent: OK | 
+2021-07-27 03:37:41.6033|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:41.6033|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:41.6067|Info|10: Sent: OK | 
+2021-07-27 03:37:41.6067|Info|4: Sent: OK | 
+2021-07-27 03:37:43.6079|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:43.6079|Info|10: Sent: OK | 
+2021-07-27 03:37:43.6079|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:43.6275|Info|4: Sent: OK | 
+2021-07-27 03:37:45.6175|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:45.6211|Info|10: Sent: OK | 
+2021-07-27 03:37:45.6211|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:45.6460|Info|4: Sent: OK | 
+2021-07-27 03:37:47.6385|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:47.6385|Info|10: Sent: OK | 
+2021-07-27 03:37:47.6385|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:47.6653|Info|4: Sent: OK | 
+2021-07-27 03:37:49.6496|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:49.6496|Info|10: Sent: OK | 
+2021-07-27 03:37:49.6805|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:49.6805|Info|4: Sent: OK | 
+2021-07-27 03:37:51.6569|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:51.6569|Info|10: Sent: OK | 
+2021-07-27 03:37:51.6829|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:51.6829|Info|4: Sent: OK | 
+2021-07-27 03:37:53.6704|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:53.6704|Info|10: Sent: OK | 
+2021-07-27 03:37:53.7035|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:53.7035|Info|4: Sent: OK | 
+2021-07-27 03:37:55.6722|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:55.6722|Info|10: Sent: OK | 
+2021-07-27 03:37:55.7083|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:55.7083|Info|4: Sent: OK | 
+2021-07-27 03:37:57.6788|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:37:57.6788|Info|10: Sent: OK | 
+2021-07-27 03:37:57.7218|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:37:57.7344|Info|4: Sent: OK | 
+2021-07-27 03:37:57.7975|Trace|Stopping server | 
+2021-07-27 03:37:57.7975|Trace|Server was stopped | 
+2021-07-27 03:38:01.4810|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:01.4810|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:03.0497|Info|4: Sent: OK | 
+2021-07-27 03:38:03.0497|Info|10: Sent: OK | 
+2021-07-27 03:38:03.0665|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 03:38:05.7327|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:05.7327|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:05.7746|Info|4: Sent: OK | 
+2021-07-27 03:38:06.7460|Info|10: Sent: OK | 
+2021-07-27 03:38:19.0330|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:19.0330|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:19.0549|Info|4: Sent: OK | 
+2021-07-27 03:38:19.0549|Info|10: Sent: OK | 
+2021-07-27 03:38:21.0355|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:21.0355|Info|4: Sent: OK | 
+2021-07-27 03:38:21.0576|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:21.0586|Info|10: Sent: OK | 
+2021-07-27 03:38:23.0388|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:23.0388|Info|4: Sent: OK | 
+2021-07-27 03:38:23.0637|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:23.0637|Info|10: Sent: OK | 
+2021-07-27 03:38:25.0510|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:25.0510|Info|4: Sent: OK | 
+2021-07-27 03:38:25.0660|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:25.0660|Info|10: Sent: OK | 
+2021-07-27 03:38:27.0581|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:27.0581|Info|4: Sent: OK | 
+2021-07-27 03:38:27.0581|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:27.0854|Info|10: Sent: OK | 
+2021-07-27 03:38:29.0747|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:29.0747|Info|4: Sent: OK | 
+2021-07-27 03:38:29.0936|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:29.0936|Info|10: Sent: OK | 
+2021-07-27 03:38:31.0826|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:31.0826|Info|4: Sent: OK | 
+2021-07-27 03:38:31.0956|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:31.0956|Info|10: Sent: OK | 
+2021-07-27 03:38:33.0886|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:33.0898|Info|4: Sent: OK | 
+2021-07-27 03:38:33.0898|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:33.0898|Info|10: Sent: OK | 
+2021-07-27 03:38:35.0939|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:35.0939|Info|4: Sent: OK | 
+2021-07-27 03:38:35.0939|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:35.0939|Info|10: Sent: OK | 
+2021-07-27 03:38:37.0973|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:37.0973|Info|4: Sent: OK | 
+2021-07-27 03:38:37.0973|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:37.1078|Info|10: Sent: OK | 
+2021-07-27 03:38:50.1051|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:38:50.1051|Info|4: Sent: OK | 
+2021-07-27 03:38:50.7513|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:38:50.7513|Info|10: Sent: OK | 
+2021-07-27 03:39:10.6457|Trace|Begin Initializing | 
+2021-07-27 03:39:10.7299|Trace|End Initializing | 
+2021-07-27 03:39:10.7299|Trace|Starting server | 
+2021-07-27 03:39:10.7299|Trace|Server was started | 
+2021-07-27 03:39:54.0432|Trace|Received message | 
+2021-07-27 03:40:01.1369|Trace|Received message | 
+2021-07-27 03:40:01.1369|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:01.1369|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:01.1533|Info|8: Sent: OK | 
+2021-07-27 03:40:01.1533|Info|4: Sent: OK | 
+2021-07-27 03:40:01.3549|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:01.3549|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:01.3549|Info|4: Sent: OK | 
+2021-07-27 03:40:01.3549|Info|8: Sent: OK | 
+2021-07-27 03:40:01.5584|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:01.5584|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:01.5584|Info|8: Sent: OK | 
+2021-07-27 03:40:01.5584|Info|4: Sent: OK | 
+2021-07-27 03:40:01.7640|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:01.7640|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:01.7640|Info|8: Sent: OK | 
+2021-07-27 03:40:01.7640|Info|4: Sent: OK | 
+2021-07-27 03:40:01.9694|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:01.9694|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:01.9694|Info|8: Sent: OK | 
+2021-07-27 03:40:01.9694|Info|4: Sent: OK | 
+2021-07-27 03:40:02.1734|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:02.1734|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:02.1734|Info|8: Sent: OK | 
+2021-07-27 03:40:02.1734|Info|4: Sent: OK | 
+2021-07-27 03:40:02.3753|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:02.3753|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:02.3753|Info|4: Sent: OK | 
+2021-07-27 03:40:02.3753|Info|8: Sent: OK | 
+2021-07-27 03:40:02.5765|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:02.5765|Info|4: Sent: OK | 
+2021-07-27 03:40:02.5765|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:02.5765|Info|8: Sent: OK | 
+2021-07-27 03:40:02.7816|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:02.7816|Info|4: Sent: OK | 
+2021-07-27 03:40:02.7816|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:02.7816|Info|8: Sent: OK | 
+2021-07-27 03:40:02.9854|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:02.9854|Info|4: Sent: OK | 
+2021-07-27 03:40:02.9854|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:03.0166|Info|8: Sent: OK | 
+2021-07-27 03:40:03.2086|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:03.2086|Info|4: Sent: OK | 
+2021-07-27 03:40:03.2175|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:03.2175|Info|8: Sent: OK | 
+2021-07-27 03:40:03.4116|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:03.4116|Info|4: Sent: OK | 
+2021-07-27 03:40:03.4276|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:03.4276|Info|8: Sent: OK | 
+2021-07-27 03:40:03.6150|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:03.6150|Info|4: Sent: OK | 
+2021-07-27 03:40:03.6300|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:03.6437|Info|8: Sent: OK | 
+2021-07-27 03:40:03.8310|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:03.8310|Info|4: Sent: OK | 
+2021-07-27 03:40:03.8510|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:03.8553|Info|8: Sent: OK | 
+2021-07-27 03:40:04.0343|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:04.0343|Info|4: Sent: OK | 
+2021-07-27 03:40:04.0683|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:04.0683|Info|8: Sent: OK | 
+2021-07-27 03:40:04.2464|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:04.2464|Info|4: Sent: OK | 
+2021-07-27 03:40:04.2744|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:04.2744|Info|8: Sent: OK | 
+2021-07-27 03:40:04.4526|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:04.4526|Info|4: Sent: OK | 
+2021-07-27 03:40:04.4775|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:04.4855|Info|8: Sent: OK | 
+2021-07-27 03:40:04.6696|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:04.6696|Info|4: Sent: OK | 
+2021-07-27 03:40:04.6897|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:04.6897|Info|8: Sent: OK | 
+2021-07-27 03:40:04.8757|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:04.8757|Info|4: Sent: OK | 
+2021-07-27 03:40:04.8925|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:04.8925|Info|8: Sent: OK | 
+2021-07-27 03:40:05.0980|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:05.0980|Info|4: Sent: OK | 
+2021-07-27 03:40:05.1060|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:05.1060|Info|8: Sent: OK | 
+2021-07-27 03:40:05.3036|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:05.3036|Info|4: Sent: OK | 
+2021-07-27 03:40:05.3086|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:05.3086|Info|8: Sent: OK | 
+2021-07-27 03:40:05.5060|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:05.5060|Info|4: Sent: OK | 
+2021-07-27 03:40:05.5060|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:05.5349|Info|8: Sent: OK | 
+2021-07-27 03:40:05.7260|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:05.7301|Info|4: Sent: OK | 
+2021-07-27 03:40:05.7579|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:05.7579|Info|8: Sent: OK | 
+2021-07-27 03:40:05.9469|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:05.9493|Info|4: Sent: OK | 
+2021-07-27 03:40:05.9493|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:05.9836|Info|8: Sent: OK | 
+2021-07-27 03:40:06.1808|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:06.1846|Info|4: Sent: OK | 
+2021-07-27 03:40:06.1846|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:06.2005|Info|8: Sent: OK | 
+2021-07-27 03:40:06.3977|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:06.3977|Info|4: Sent: OK | 
+2021-07-27 03:40:06.4096|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:06.4096|Info|8: Sent: OK | 
+2021-07-27 03:40:06.6038|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:06.6049|Info|4: Sent: OK | 
+2021-07-27 03:40:06.6049|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:06.6049|Info|8: Sent: OK | 
+2021-07-27 03:40:06.8109|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:06.8109|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:06.8109|Info|4: Sent: OK | 
+2021-07-27 03:40:06.8357|Info|8: Sent: OK | 
+2021-07-27 03:40:07.0360|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:07.0360|Info|4: Sent: OK | 
+2021-07-27 03:40:07.0499|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:07.0655|Info|8: Sent: OK | 
+2021-07-27 03:40:07.2616|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:07.2616|Info|4: Sent: OK | 
+2021-07-27 03:40:07.2616|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:07.2813|Info|8: Sent: OK | 
+2021-07-27 03:40:07.4776|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:07.4776|Info|4: Sent: OK | 
+2021-07-27 03:40:07.4846|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:07.4846|Info|8: Sent: OK | 
+2021-07-27 03:40:07.6817|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:07.6817|Info|4: Sent: OK | 
+2021-07-27 03:40:07.6896|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:07.6896|Info|8: Sent: OK | 
+2021-07-27 03:40:07.8846|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:07.8846|Info|4: Sent: OK | 
+2021-07-27 03:40:07.8926|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:07.8926|Info|8: Sent: OK | 
+2021-07-27 03:40:08.0897|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:08.0897|Info|4: Sent: OK | 
+2021-07-27 03:40:08.0897|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:08.1094|Info|8: Sent: OK | 
+2021-07-27 03:40:08.3076|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:08.3097|Info|4: Sent: OK | 
+2021-07-27 03:40:08.3097|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:08.3249|Info|8: Sent: OK | 
+2021-07-27 03:40:08.5205|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:08.5205|Info|4: Sent: OK | 
+2021-07-27 03:40:08.5283|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:08.5501|Info|8: Sent: OK | 
+2021-07-27 03:40:08.7399|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:08.7399|Info|4: Sent: OK | 
+2021-07-27 03:40:08.7518|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:08.7518|Info|8: Sent: OK | 
+2021-07-27 03:40:08.9488|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:08.9488|Info|4: Sent: OK | 
+2021-07-27 03:40:08.9488|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:08.9488|Info|8: Sent: OK | 
+2021-07-27 03:40:09.1533|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:09.1533|Info|4: Sent: OK | 
+2021-07-27 03:40:09.1533|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:09.1533|Info|8: Sent: OK | 
+2021-07-27 03:40:09.3602|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:09.3602|Info|4: Sent: OK | 
+2021-07-27 03:40:09.3602|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:09.3602|Info|8: Sent: OK | 
+2021-07-27 03:40:09.5613|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:09.5613|Info|4: Sent: OK | 
+2021-07-27 03:40:09.5613|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:09.5613|Info|8: Sent: OK | 
+2021-07-27 03:40:09.7670|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:09.7670|Info|4: Sent: OK | 
+2021-07-27 03:40:09.7670|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:09.7670|Info|8: Sent: OK | 
+2021-07-27 03:40:09.9727|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:09.9727|Info|4: Sent: OK | 
+2021-07-27 03:40:09.9797|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:09.9797|Info|8: Sent: OK | 
+2021-07-27 03:40:10.1785|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:10.1785|Info|4: Sent: OK | 
+2021-07-27 03:40:10.1785|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:10.1880|Info|8: Sent: OK | 
+2021-07-27 03:40:10.3836|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:10.3836|Info|4: Sent: OK | 
+2021-07-27 03:40:10.3885|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:10.3885|Info|8: Sent: OK | 
+2021-07-27 03:40:10.5878|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:10.5878|Info|4: Sent: OK | 
+2021-07-27 03:40:10.5938|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:10.5938|Info|8: Sent: OK | 
+2021-07-27 03:40:10.8020|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:10.8020|Info|4: Sent: OK | 
+2021-07-27 03:40:10.8020|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:10.8093|Info|8: Sent: OK | 
+2021-07-27 03:40:11.0067|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:11.0067|Info|4: Sent: OK | 
+2021-07-27 03:40:11.0142|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:11.0142|Info|8: Sent: OK | 
+2021-07-27 03:40:11.2109|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:11.2109|Info|4: Sent: OK | 
+2021-07-27 03:40:11.2158|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:11.2158|Info|8: Sent: OK | 
+2021-07-27 03:40:11.4224|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:11.4224|Info|4: Sent: OK | 
+2021-07-27 03:40:11.4224|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:11.4224|Info|8: Sent: OK | 
+2021-07-27 03:40:11.6270|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:11.6270|Info|4: Sent: OK | 
+2021-07-27 03:40:11.6270|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:11.6270|Info|8: Sent: OK | 
+2021-07-27 03:40:11.8312|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:11.8312|Info|4: Sent: OK | 
+2021-07-27 03:40:11.8312|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:11.8312|Info|8: Sent: OK | 
+2021-07-27 03:40:12.0373|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:12.0373|Info|4: Sent: OK | 
+2021-07-27 03:40:12.0462|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:12.0462|Info|8: Sent: OK | 
+2021-07-27 03:40:12.0698|Trace|Stopping server | 
+2021-07-27 03:40:12.0698|Trace|Server was stopped | 
+2021-07-27 03:40:15.7779|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:15.7779|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:15.7779|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 03:40:15.7779|Info|4: Sent: OK | 
+2021-07-27 03:40:15.7779|Info|8: Sent: OK | 
+2021-07-27 03:40:17.6896|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:17.6896|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:18.8102|Info|4: Sent: OK | 
+2021-07-27 03:40:18.8102|Info|8: Sent: OK | 
+2021-07-27 03:40:19.0111|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:19.0111|Info|4: Sent: OK | 
+2021-07-27 03:40:19.0111|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:19.0502|Info|8: Sent: OK | 
+2021-07-27 03:40:19.2376|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:19.2376|Info|4: Sent: OK | 
+2021-07-27 03:40:19.2634|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:19.2634|Info|8: Sent: OK | 
+2021-07-27 03:40:19.4645|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:19.4645|Info|4: Sent: OK | 
+2021-07-27 03:40:19.4645|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:19.4873|Info|8: Sent: OK | 
+2021-07-27 03:40:19.6849|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:19.6849|Info|4: Sent: OK | 
+2021-07-27 03:40:19.6849|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:19.7023|Info|8: Sent: OK | 
+2021-07-27 03:40:19.8973|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:19.8973|Info|4: Sent: OK | 
+2021-07-27 03:40:19.9043|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:19.9043|Info|8: Sent: OK | 
+2021-07-27 03:40:20.1021|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:20.1021|Info|4: Sent: OK | 
+2021-07-27 03:40:20.1101|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:20.1101|Info|8: Sent: OK | 
+2021-07-27 03:40:20.3050|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:20.3050|Info|4: Sent: OK | 
+2021-07-27 03:40:20.3129|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:20.3129|Info|8: Sent: OK | 
+2021-07-27 03:40:20.5110|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:20.5110|Info|4: Sent: OK | 
+2021-07-27 03:40:20.5110|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:20.5312|Info|8: Sent: OK | 
+2021-07-27 03:40:20.7300|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:20.7300|Info|4: Sent: OK | 
+2021-07-27 03:40:20.7300|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:20.7300|Info|8: Sent: OK | 
+2021-07-27 03:40:20.9360|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:20.9360|Info|4: Sent: OK | 
+2021-07-27 03:40:20.9360|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:20.9360|Info|8: Sent: OK | 
+2021-07-27 03:40:21.1416|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:21.1416|Info|4: Sent: OK | 
+2021-07-27 03:40:21.1416|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:21.1416|Info|8: Sent: OK | 
+2021-07-27 03:40:21.3468|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:21.3468|Info|4: Sent: OK | 
+2021-07-27 03:40:21.3468|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:21.3468|Info|8: Sent: OK | 
+2021-07-27 03:40:21.5528|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:21.5528|Info|4: Sent: OK | 
+2021-07-27 03:40:21.5528|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:21.5577|Info|8: Sent: OK | 
+2021-07-27 03:40:21.7570|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:21.7570|Info|4: Sent: OK | 
+2021-07-27 03:40:21.7619|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:21.7619|Info|8: Sent: OK | 
+2021-07-27 03:40:21.9715|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:21.9715|Info|4: Sent: OK | 
+2021-07-27 03:40:21.9854|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:21.9854|Info|8: Sent: OK | 
+2021-07-27 03:40:22.1744|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:22.1744|Info|4: Sent: OK | 
+2021-07-27 03:40:22.1874|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:22.1874|Info|8: Sent: OK | 
+2021-07-27 03:40:22.3760|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:22.3760|Info|4: Sent: OK | 
+2021-07-27 03:40:22.3900|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:22.3900|Info|8: Sent: OK | 
+2021-07-27 03:40:22.5828|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:22.5828|Info|4: Sent: OK | 
+2021-07-27 03:40:22.5948|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:22.5948|Info|8: Sent: OK | 
+2021-07-27 03:40:22.7868|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:22.7868|Info|4: Sent: OK | 
+2021-07-27 03:40:22.7968|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:22.7968|Info|8: Sent: OK | 
+2021-07-27 03:40:22.9948|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:22.9948|Info|4: Sent: OK | 
+2021-07-27 03:40:23.0058|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:23.0058|Info|8: Sent: OK | 
+2021-07-27 03:40:23.1981|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:23.1993|Info|4: Sent: OK | 
+2021-07-27 03:40:23.1993|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:23.1993|Info|8: Sent: OK | 
+2021-07-27 03:40:23.4111|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:23.4111|Info|4: Sent: OK | 
+2021-07-27 03:40:23.4180|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:23.4180|Info|8: Sent: OK | 
+2021-07-27 03:40:23.6141|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:23.6141|Info|4: Sent: OK | 
+2021-07-27 03:40:23.6231|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:23.6231|Info|8: Sent: OK | 
+2021-07-27 03:40:23.8188|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:23.8188|Info|4: Sent: OK | 
+2021-07-27 03:40:23.8287|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:23.8287|Info|8: Sent: OK | 
+2021-07-27 03:40:24.0277|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:24.0277|Info|4: Sent: OK | 
+2021-07-27 03:40:24.0277|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:24.0277|Info|8: Sent: OK | 
+2021-07-27 03:40:24.2332|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:24.2332|Info|4: Sent: OK | 
+2021-07-27 03:40:24.2332|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:24.2562|Info|8: Sent: OK | 
+2021-07-27 03:40:24.4540|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:24.4540|Info|4: Sent: OK | 
+2021-07-27 03:40:24.4640|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:24.4640|Info|8: Sent: OK | 
+2021-07-27 03:40:24.6579|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:24.6579|Info|4: Sent: OK | 
+2021-07-27 03:40:24.6700|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:24.6700|Info|8: Sent: OK | 
+2021-07-27 03:40:24.8660|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:24.8660|Info|4: Sent: OK | 
+2021-07-27 03:40:24.8890|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:24.8890|Info|8: Sent: OK | 
+2021-07-27 03:40:25.0701|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:25.0775|Info|4: Sent: OK | 
+2021-07-27 03:40:25.0920|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:25.0920|Info|8: Sent: OK | 
+2021-07-27 03:40:25.2795|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:25.2795|Info|4: Sent: OK | 
+2021-07-27 03:40:25.2955|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:25.2955|Info|8: Sent: OK | 
+2021-07-27 03:40:25.4866|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:25.4866|Info|4: Sent: OK | 
+2021-07-27 03:40:25.4986|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:25.4986|Info|8: Sent: OK | 
+2021-07-27 03:40:25.6880|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:25.6880|Info|4: Sent: OK | 
+2021-07-27 03:40:25.7020|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:25.7209|Info|8: Sent: OK | 
+2021-07-27 03:40:25.9179|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:25.9179|Info|4: Sent: OK | 
+2021-07-27 03:40:25.9179|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:25.9179|Info|8: Sent: OK | 
+2021-07-27 03:40:26.1243|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:26.1243|Info|4: Sent: OK | 
+2021-07-27 03:40:26.1243|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:26.1494|Info|8: Sent: OK | 
+2021-07-27 03:40:26.3469|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:26.3469|Info|4: Sent: OK | 
+2021-07-27 03:40:26.3469|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:26.3607|Info|8: Sent: OK | 
+2021-07-27 03:40:26.5538|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:26.5538|Info|4: Sent: OK | 
+2021-07-27 03:40:26.5668|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:26.5668|Info|8: Sent: OK | 
+2021-07-27 03:40:26.7573|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:26.7573|Info|4: Sent: OK | 
+2021-07-27 03:40:26.7680|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:26.7803|Info|8: Sent: OK | 
+2021-07-27 03:40:26.9740|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:26.9740|Info|4: Sent: OK | 
+2021-07-27 03:40:26.9819|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:26.9819|Info|8: Sent: OK | 
+2021-07-27 03:40:27.1802|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:27.1802|Info|4: Sent: OK | 
+2021-07-27 03:40:27.1900|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:27.2011|Info|8: Sent: OK | 
+2021-07-27 03:40:27.3950|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:27.3950|Info|4: Sent: OK | 
+2021-07-27 03:40:27.4070|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:27.4070|Info|8: Sent: OK | 
+2021-07-27 03:40:27.5976|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:27.5976|Info|4: Sent: OK | 
+2021-07-27 03:40:27.6114|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:27.6114|Info|8: Sent: OK | 
+2021-07-27 03:40:27.8114|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:27.8114|Info|4: Sent: OK | 
+2021-07-27 03:40:27.8114|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:27.8114|Info|8: Sent: OK | 
+2021-07-27 03:40:28.0196|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:28.0196|Info|4: Sent: OK | 
+2021-07-27 03:40:28.0305|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:28.0305|Info|8: Sent: OK | 
+2021-07-27 03:40:28.2241|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:40:28.2241|Info|4: Sent: OK | 
+2021-07-27 03:40:28.2321|Info|8: Received: Hello I'm Device 1... | 
+2021-07-27 03:40:28.2503|Info|8: Sent: OK | 
+2021-07-27 03:41:51.1315|Trace|Begin Initializing | 
+2021-07-27 03:41:51.2049|Trace|End Initializing | 
+2021-07-27 03:41:51.2049|Trace|Starting server | 
+2021-07-27 03:41:51.2049|Trace|Server was started | 
+2021-07-27 03:42:12.5457|Trace|Received message | 
+2021-07-27 03:42:14.0223|Trace|Received message | 
+2021-07-27 03:42:14.0300|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:42:14.0300|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:42:14.0300|Info|4: Sent: OK | 
+2021-07-27 03:42:14.0300|Info|10: Sent: OK | 
+2021-07-27 03:42:14.2425|Info|10: Received: Hello I'm Device 1... | 
+2021-07-27 03:42:14.2425|Info|4: Received: Hello I'm Device 2... | 
+2021-07-27 03:42:14.2453|Info|10: Sent: OK | 
+2021-07-27 03:42:14.2453|Info|4: Sent: OK | 
+2021-07-27 03:45:14.5999|Trace|Begin Initializing | 
+2021-07-27 03:45:14.7203|Trace|End Initializing | 
+2021-07-27 03:45:14.7203|Trace|Starting server | 
+2021-07-27 03:45:14.7203|Trace|Server was started | 
+2021-07-27 03:45:41.3777|Trace|Received message | 
+2021-07-27 03:45:41.3777|Trace|Received message | 
+2021-07-27 03:46:02.4108|Info|4: Received: Command1 | 
+2021-07-27 03:46:02.4108|Info|9: Received: Command2 | 
+2021-07-27 03:46:26.0107|Info|4: Sent: OK | 
+2021-07-27 03:46:26.0278|Info|9: Sent: OK | 
+2021-07-27 03:47:10.8286|Info|4: Received: Command1 | 
+2021-07-27 03:47:10.8286|Info|9: Received: Command2 | 
+2021-07-27 03:47:52.9951|Info|4: Sent: OK | 
+2021-07-27 03:47:53.0038|Info|9: Sent: OK | 
+2021-07-27 03:49:07.5303|Trace|Stopping server | 
+2021-07-27 03:49:07.5303|Trace|Server was stopped | 
+2021-07-27 03:49:07.5996|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 04:24:56.1315|Error|Stopped program because of exception before starting server | System.InvalidOperationException: No service for type 'Backend.Commands.ICommandDispatcher' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Backend.Server.LowServer..ctor(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Server\LowServer.cs:line 37
+   at Backend.Server.LowTCPServer..ctor(IServiceProvider serviceProvider) in C:\Users\prosa\Desktop\my experience\backend\Server\LowTCPServer.cs:line 32
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 66
+   at Backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 50
+2021-07-27 04:24:56.2176|Error|System.InvalidOperationException: No service for type 'Backend.Commands.ICommandDispatcher' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Backend.Server.LowServer..ctor(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Server\LowServer.cs:line 37
+   at Backend.Server.LowTCPServer..ctor(IServiceProvider serviceProvider) in C:\Users\prosa\Desktop\my experience\backend\Server\LowTCPServer.cs:line 32
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 66
+   at Backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 50 | 
+2021-07-27 04:26:08.5698|Error|Stopped program because of exception before starting server | System.ArgumentException: Cannot instantiate implementation type 'Backend.Commands.ICommandDispatcher' for service type 'Backend.Commands.ICommandDispatcher'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Backend.Program.BuildDI(IConfiguration config) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 104
+   at Backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 48
+2021-07-27 04:26:08.6520|Error|System.ArgumentException: Cannot instantiate implementation type 'Backend.Commands.ICommandDispatcher' for service type 'Backend.Commands.ICommandDispatcher'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Backend.Program.BuildDI(IConfiguration config) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 104
+   at Backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 48 | 
+2021-07-27 04:26:32.6890|Error|Stopped program because of exception before starting server | System.ArgumentException: Cannot instantiate implementation type 'Backend.Commands.ICommandDispatcher' for service type 'Backend.Commands.ICommandDispatcher'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Backend.Program.BuildDI(IConfiguration config) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 104
+   at Backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 48
+2021-07-27 04:26:32.7823|Error|System.ArgumentException: Cannot instantiate implementation type 'Backend.Commands.ICommandDispatcher' for service type 'Backend.Commands.ICommandDispatcher'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Backend.Program.BuildDI(IConfiguration config) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 104
+   at Backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 48 | 
+2021-07-27 04:26:51.6698|Trace|Begin Initializing | 
+2021-07-27 04:26:51.7325|Trace|End Initializing | 
+2021-07-27 04:26:51.7325|Trace|Starting server | 
+2021-07-27 04:26:51.7325|Trace|Server was started | 
+2021-07-27 04:26:54.1124|Trace|Stopping server | 
+2021-07-27 04:26:54.1124|Trace|Server was stopped | 
+2021-07-27 04:26:54.2007|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 04:28:15.6518|Trace|Begin Initializing | 
+2021-07-27 04:28:15.7057|Trace|End Initializing | 
+2021-07-27 04:28:15.7057|Trace|Starting server | 
+2021-07-27 04:28:15.7057|Trace|Server was started | 
+2021-07-27 04:28:17.9204|Trace|Stopping server | 
+2021-07-27 04:28:18.0027|Trace|Server stopped listening because cancellation token was requested. | 
+2021-07-27 05:59:18.7537|Error|Приложение сервера остановлено, по причине исключения перед запуском. | System.InvalidOperationException: No service for type 'Backend.Core.ILowQueue' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Backend.Server.LowServer..ctor(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Server\LowServer.cs:line 41
+   at Backend.Server.LowTCPServer..ctor(IServiceProvider serviceProvider) in C:\Users\prosa\Desktop\my experience\backend\Server\LowTCPServer.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 67
+   at Backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 51
+2021-07-27 05:59:18.8458|Error|System.InvalidOperationException: No service for type 'Backend.Core.ILowQueue' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Backend.Server.LowServer..ctor(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Server\LowServer.cs:line 41
+   at Backend.Server.LowTCPServer..ctor(IServiceProvider serviceProvider) in C:\Users\prosa\Desktop\my experience\backend\Server\LowTCPServer.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Backend.Program.InitAndStartServer(IServiceProvider servicesProvider) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 67
+   at Backend.Program.Main(String[] args) in C:\Users\prosa\Desktop\my experience\backend\Program.cs:line 51 | 
+2021-07-27 05:59:56.7682|Trace|Инициализация... | 
+2021-07-27 05:59:56.8465|Trace|Конец инициализации | 
+2021-07-27 05:59:56.8465|Trace|Запуск сервера... | 
+2021-07-27 05:59:56.8569|Trace|Сервер запущен | 
+2021-07-27 06:01:24.1698|Info|4: Получено: Command2 | 
+2021-07-27 06:01:24.1698|Info|8: Получено: Command1 | 
+2021-07-27 06:04:09.0278|Trace|Инициализация... | 
+2021-07-27 06:04:09.0763|Trace|Конец инициализации | 
+2021-07-27 06:04:09.0763|Trace|Запуск сервера... | 
+2021-07-27 06:04:09.0763|Trace|Сервер запущен | 
+2021-07-27 06:04:19.7652|Info|4: Получено: Command2 | 
+2021-07-27 06:04:19.7652|Info|8: Получено: Command1 | 
+2021-07-27 06:04:47.9541|Info|8: Отправлено: OK | 
+2021-07-27 06:04:47.9541|Info|4: Отправлено: OK | 
+2021-07-27 06:04:57.9442|Info|4: Получено: Command2 | 
+2021-07-27 06:04:57.9442|Info|8: Получено: Command1 | 
+2021-07-27 06:05:00.3493|Info|4: Отправлено: OK | 
+2021-07-27 06:05:06.8491|Info|8: Отправлено: OK | 
+2021-07-27 06:16:48.0025|Trace|Инициализация... | 
+2021-07-27 06:16:48.0618|Trace|Конец инициализации | 
+2021-07-27 06:16:48.0618|Trace|Запуск сервера... | 

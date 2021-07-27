@@ -1,0 +1,16 @@
+C:\Users\prosa\Desktop\my experience\bin\Debug\net5.0\my experience.exe
+C:\Users\prosa\Desktop\my experience\bin\Debug\net5.0\my experience.deps.json
+C:\Users\prosa\Desktop\my experience\bin\Debug\net5.0\my experience.runtimeconfig.json
+C:\Users\prosa\Desktop\my experience\bin\Debug\net5.0\my experience.runtimeconfig.dev.json
+C:\Users\prosa\Desktop\my experience\bin\Debug\net5.0\my experience.dll
+C:\Users\prosa\Desktop\my experience\bin\Debug\net5.0\ref\my experience.dll
+C:\Users\prosa\Desktop\my experience\bin\Debug\net5.0\my experience.pdb
+C:\Users\prosa\Desktop\my experience\obj\Debug\net5.0\my experience.csproj.AssemblyReference.cache
+C:\Users\prosa\Desktop\my experience\obj\Debug\net5.0\my experience.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prosa\Desktop\my experience\obj\Debug\net5.0\my experience.AssemblyInfoInputs.cache
+C:\Users\prosa\Desktop\my experience\obj\Debug\net5.0\my experience.AssemblyInfo.cs
+C:\Users\prosa\Desktop\my experience\obj\Debug\net5.0\my experience.csproj.CoreCompileInputs.cache
+C:\Users\prosa\Desktop\my experience\obj\Debug\net5.0\my experience.dll
+C:\Users\prosa\Desktop\my experience\obj\Debug\net5.0\ref\my experience.dll
+C:\Users\prosa\Desktop\my experience\obj\Debug\net5.0\my experience.pdb
+C:\Users\prosa\Desktop\my experience\obj\Debug\net5.0\my experience.genruntimeconfig.cache
